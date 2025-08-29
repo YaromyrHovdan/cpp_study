@@ -10,11 +10,11 @@ struct School {
 
 int main() {
     vector<School> employers = {
-        {"Pavlo", "Kryviy", "Teacher"},
-        {"Yaroslav", "Myronovych", "Teacher"}, // ярик знає свої права
-        {"Ivan", "Sranyk", "Headteacher"},
-        {"Vitaliy", "Klychko", "Headteacher"},
-        {"Heorhiy", "Drun", "Principal"}
+        {"Pavlo", "Kryviy", "Pavlo Kryviy, Teacher"},
+        {"Yaroslav", "Myronovych", "Yaroslav Myronovych, Teacher"}, // ярик знає свої права
+        {"Ivan", "Sranyk", "Ivan Sranyk, Headteacher"},
+        {"Vitaliy", "Klychko", "Vitaliy Klychko, Headteacher"},
+        {"Heorhiy", "Drun", "Heorhiy Drun, Principal"}
     };
 
     string choice, query;
